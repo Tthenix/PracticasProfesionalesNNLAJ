@@ -1,12 +1,12 @@
 # PracticasProfecionalesNNLAJ
 
-Proyecto:
+Proyecto:Invernadero
 
-Nahuel Quiroga(Lider)
-Nicolas Beltran
-Lucas Moran
-Ariel Cohen
-Juan Yañez
+Nahuel Quiroga(Lider,Programacion),
+Nicolas Beltran(Ayudante de Base de datos,Interfaz grafica),
+Lucas Moran(Base de datos),
+Ariel Cohen(Programacion),
+Juan Yañez(Recolecta de informacion)
 
 Roles:
-Base de datos, recolectarm infor
+Lider,Base de datos,Recolectar Informacion,Interfaz Grafica,Programacion,
