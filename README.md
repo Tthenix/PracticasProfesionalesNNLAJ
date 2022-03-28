@@ -1,4 +1,4 @@
-# PracticasProfecionalesNNLAJ
+# PracticasProfesionalesNNLAJ
 
 Proyecto:Invernadero
 
