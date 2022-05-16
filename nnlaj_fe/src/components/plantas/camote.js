@@ -1,11 +1,11 @@
 import React from 'react'
 
-function Nosotros() {
+function Camote() {
   return (
   <div align="center">
-    sobre nosotros
+    camotes
   </div>
   )
 }
 
-export default Nosotros
+export default Camote

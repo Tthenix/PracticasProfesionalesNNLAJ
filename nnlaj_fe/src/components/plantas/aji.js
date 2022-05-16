@@ -1,11 +1,11 @@
 import React from 'react'
 
-function Nosotros() {
+function Aji() {
   return (
   <div align="center">
-    sobre nosotros
+    Aji
   </div>
   )
 }
 
-export default Nosotros
+export default Aji

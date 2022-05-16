@@ -1,11 +1,11 @@
 import React from 'react'
 
-function Nosotros() {
+function Zapallo() {
   return (
   <div align="center">
-    sobre nosotros
+    Zapallo
   </div>
   )
 }
 
-export default Nosotros
+export default Zapallo
