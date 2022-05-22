@@ -1,4 +1,5 @@
 import React from "react";
+import "./home.css";
 
 
 import camote from "../../images/Camote.jpg";
@@ -13,54 +14,56 @@ import zapallo from "../../images/Zapallo.jpg";
 
 function Home() {
    return (
-    <div align="center">
-      <div>
+    <div class="Home" align="center">
+      <div class="Fondo">
         <img src={fondo} alt="Fondo" width="100%" height="100%"  />
       </div>   
       <table border="3">
         <tr>
           <td>Camote</td>
           <td>Aji</td>
-          <td>Dragon</td>
         </tr>
         <tr>
           <td>
             <a href="Camote">
-              <img src={camote} alt="Camote" width="200" height="200" />
+              <img src={camote} alt="Camote" width="500" height="500" />
             </a>
           </td>
           <td>
             <a href="Aji">
-              <img src={aji} alt="Aji" width="200" height="200" />
+              <img src={aji} alt="Aji" width="500" height="500" />
+            </a>
+          </td>      
+        </tr>
+        <tr>
+          <td>Dragon</td>
+          <td>Romanesco</td>
+        </tr>
+        <tr>
+          <td>
+            <a href="Dragon">
+              <img src={dragon} alt="Dragon" width="500" height="500" />
             </a>
           </td>
           <td>
-            <a href="Dragon">
-              <img src={dragon} alt="Dragon" width="200" height="200" />
+            <a href="Romanesco">
+              <img src={romanesco} alt="Romanesco" width="500" height="500" />
             </a>
           </td>
         </tr>
-
         <tr>
-          <td>Romanesco</td>
           <td>Zapallo</td>
           <td>Frutilla</td>
         </tr>
-
         <tr>
           <td>
-            <a href="Romanesco">
-              <img src={romanesco} alt="Romanesco" width="200" height="200" />
-            </a>
-          </td>
-          <td>
             <a href="Zapallo">
-              <img src={zapallo} alt="Zapallo" width="200" height="200" />
+              <img src={zapallo} alt="Zapallo" width="500" height="500" />
             </a>
           </td>
           <td>
             <a href="Frutilla">
-              <img src={frutilla} alt="Frutilla" width="200" height="200" />
+              <img src={frutilla} alt="Frutilla" width="500" height="500" />
             </a>
           </td>
         </tr>

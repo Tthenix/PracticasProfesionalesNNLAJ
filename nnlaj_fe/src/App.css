@@ -34,9 +34,8 @@
 }
 
 section {
-  color: #fff;
-  text-shadow: 3px 3px rgba(50,50,70,0.5);
-  background-color: #fcfcfcb0;
+  color: rgb(0, 0, 0);
+  background-color: #ffffffb0;
   height: 100vh;  
 }
 .navBg {
