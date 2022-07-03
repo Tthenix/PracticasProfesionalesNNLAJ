@@ -1,0 +1,12 @@
+.Home {
+    display: grid;
+    grid-template-columns: 100%;
+    background-color: #000000b0;
+}
+.Fondo{
+    opacity: 0.50;
+    background-color: #000000;
+}
+.Fondo:hover{
+    border: 4px solid #000000;
+}
