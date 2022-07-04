@@ -3,10 +3,18 @@
     grid-template-columns: 100%;
     background-color: #000000b0;
 }
-.Fondo{
+
+.Fondo {
+    background-image: image(Fondo);
     opacity: 0.50;
     background-color: #000000;
 }
-.Fondo:hover{
+
+.Fondo:hover {
     border: 4px solid #000000;
+}
+
+.Flex {
+    display: flex;
+    flex-direction: row;
 }
