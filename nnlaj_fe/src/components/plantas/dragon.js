@@ -2,9 +2,9 @@ import React from 'react'
 
 function Dragon() {
   return (
-  <div align="center">
-    Dragon
-  </div>
+    <div align="center">
+      Dragon 1234567890
+    </div>
   )
 }
 
