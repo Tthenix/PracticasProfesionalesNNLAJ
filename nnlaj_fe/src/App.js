@@ -12,6 +12,7 @@ import Dragon from "./components/plantas/dragon"
 import Frutilla from "./components/plantas/frutilla";
 import Romanesco from "./components/plantas/romanesco";
 import Zapallo from "./components/plantas/zapallo";
+import Ejemplo from "./components/plantas/ejemplo"
 
 function App() {
 
@@ -30,6 +31,7 @@ function App() {
             <Route path="dragon" element={<Dragon />} />
             <Route path="frutilla" element={<Frutilla />} />
             <Route path="romanesco" element={<Romanesco />} />
+            <Route path="Ejemplo" element={<Ejemplo />} />
 
             <Route path="*" element={<Navigate replace to="/" />} />
           </Route>

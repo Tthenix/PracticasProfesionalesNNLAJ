@@ -67,6 +67,14 @@ function Home() {
             </a>
           </td>
         </tr>
+        <tr>
+          <td>
+            Boton
+          </td>
+        </tr>
+          <td>
+            <button > <a href="Ejemplo">Ejemplo</a> </button>
+          </td>
       </table>
     </div>
   );
