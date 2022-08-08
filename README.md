@@ -2,7 +2,10 @@
 
 Proyecto:Invernadero
 
-Nahuel Quiroga(Lider,Front end,Back end),
+
+Nahuel Quiroga(Lider,Front end,Back end)
+
+
 Nicolas Beltran(Ayudante de Base de datos,Front end),
 Lucas Moran(Base de datos),
 Ariel Cohen(Front end,Back end),
