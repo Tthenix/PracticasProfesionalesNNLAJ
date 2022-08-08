@@ -1,6 +1,7 @@
 # 💎NNLAJ💎
 
 🔯Proyecto: Invernadero🔯
+![image](https://user-images.githubusercontent.com/80958428/183411359-e4da17b0-64d5-4689-b080-e2decc50d7eb.png)
 
 
 
