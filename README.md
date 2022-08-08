@@ -1,4 +1,4 @@
-# ➡️PracticasProfesionalesNNLAJ⬅️
+# 💎PracticasProfesionalesNNLAJ💎
 
 🔯Proyecto:Invernadero
 
