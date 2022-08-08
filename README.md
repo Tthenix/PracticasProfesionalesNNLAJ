@@ -14,15 +14,20 @@
 🔵Juan Yañez(Recolecta de informacion)
 
 
+
 🔰Roles:
+
+
+🟠Front end,Back end
+
+🟢Front end
 
 🟡Base de datos
 
+🟣Front end,Back end
+
 🔵Recolectar Informacion
 
-🟠🟣Front end,Back end
-
-🟢Front end
 
 
 ✅Tecnologia:React,Node.js y PostGreeSql
