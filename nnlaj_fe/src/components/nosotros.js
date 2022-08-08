@@ -9,7 +9,7 @@ function Nosotros() {
           somos un equipo de 5 personas formado por:
         </p>
       </div>
-      <div class="nosotros2">
+      <div class="nosotros2 text-start">
         <p>
           Nahuel Quiroga(Lider)
         </p>
@@ -24,6 +24,11 @@ function Nosotros() {
         </p>
         <p>
           Juan Yañez(busqueda de informacion)
+        </p>
+      </div>
+      <div>
+        <p>
+          este proyecto empezo como un trabajo obligatorio pero con el tiempo nos empezo a gustar avanzarlo y hacerlo mucho mas atractivo visualmente
         </p>
       </div>
       <a href="https://github.com/Tthenix/PracticasProfesionalesNNLAJ">

@@ -1,6 +1,4 @@
-.nosotros2{
-    margin: 0%;
-    padding: 0%;
+.nosotros2 text-start{
     display: flex;
-    flex-direction: column;
+    justify-content: center;
 }
