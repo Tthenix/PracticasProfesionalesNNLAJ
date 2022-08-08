@@ -37,4 +37,7 @@
 
 ✅Tecnologia: React,Node.js y PostGreeSql✅
 
+![image](https://user-images.githubusercontent.com/80958428/183411846-2cdb6953-38e6-43bd-a348-4b5e0554c016.png)
+
+
 ⚠️Vamos a usar estas tecnologias porque ya estamos familiarizados y son las que estamos aprendiendo, aparte react, node.js y PostGree son muy eficientes en la programacion web y se complementan muy bien
