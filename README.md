@@ -1,21 +1,24 @@
 # 💎PracticasProfesionalesNNLAJ💎
 
-🔯Proyecto:Invernadero
-
-
-🟠Nahuel Quiroga(Lider,Front end,Back end)
-
-🟢Nicolas Beltran(Ayudante de Base de datos,Front end)
-
-🟡Lucas Moran(Base de datos)
-
-🟣Ariel Cohen(Front end,Back end)
-
-🔵Juan Yañez(Recolecta de informacion)
+🔯Proyecto:Invernadero🔯
 
 
 
-🔰Roles:
+🚩Integrantes🚩
+
+🟠Nahuel Quiroga
+
+🟢Nicolas Beltran
+
+🟡Lucas Moran
+
+🟣Ariel Cohen
+
+🔵Juan Yañez
+
+
+
+🔰Roles🔰
 
 
 🟠Front end,Back end
@@ -30,6 +33,6 @@
 
 
 
-✅Tecnologia:React,Node.js y PostGreeSql
+✅Tecnologia:React,Node.js y PostGreeSql✅
 
-⚠️Vamos a usar estas tecnologias porque ya estamos familiarizados y son las que estamos aprendiendo, aparte react, node.js y PostGree son muy eficientes en la programacion web y se complementan muy bien⚠️
+⚠️Vamos a usar estas tecnologias porque ya estamos familiarizados y son las que estamos aprendiendo, aparte react, node.js y PostGree son muy eficientes en la programacion web y se complementan muy bien⚠
