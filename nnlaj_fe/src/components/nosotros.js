@@ -33,7 +33,7 @@ function Nosotros() {
       </div>
       <a href="https://github.com/Tthenix/PracticasProfesionalesNNLAJ">
         https://github.com/Tthenix/PracticasProfesionalesNNLAJ
-        </a>
+      </a>
     </div>
   )
 }
