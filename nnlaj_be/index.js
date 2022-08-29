@@ -1,6 +1,22 @@
 document.getElementById("PlantasDiv").innerHTML = "PLANTAS div";
 alert("ESTE ES EL INVERNADERO =)");
 
+document.getElementById("ZapalloDiv").innerHTML = "Zapallo";
+
+document.getElementById("FrutillaDiv").innerHTML = "Frutilla";
+
+document.getElementById("RomanescuDiv").innerHTML = "Romanescu";
+
+document.getElementById("LechugaDiv").innerHTML = "Lechuga";
+
+document.getElementById("EspinacaDiv").innerHTML = "Espinaca";
+
+document.getElementById("DragonDiv").innerHTML = "Dragon";
+
+document.getElementById("AjoDiv").innerHTML = "Ajo";
+
+document.getElementById("AjíDiv").innerHTML = "Ají";
+
 const { Client } = require("pg");
 
 const obtenerCategorias = async () => {
