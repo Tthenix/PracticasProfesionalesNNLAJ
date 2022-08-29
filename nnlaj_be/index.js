@@ -1,3 +1,6 @@
+document.getElementById("PlantasDiv").innerHTML = "PLANTAS div";
+alert("ESTE ES EL INVERNADERO =)");
+
 const { Client } = require("pg");
 
 const obtenerCategorias = async () => {
