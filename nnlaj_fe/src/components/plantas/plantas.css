@@ -3,3 +3,21 @@
     vertical-align: bottom;
     font-size: 1vw ;
 }
+
+.planta1{
+    font-size: 4vw;
+}
+
+.titulo{
+    font-size: 2vw;
+}
+
+.texto{
+    font-size: 1.2vw;
+}
+
+.fondo{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+}
