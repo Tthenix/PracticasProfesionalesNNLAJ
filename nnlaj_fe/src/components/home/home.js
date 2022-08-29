@@ -4,7 +4,7 @@ import "./home.css";
 
 import camote from "../../images/Camote.jpg";
 import aji from "../../images/Aji.jpg";
-import fondo from "../../images/Fondo.jpg";
+import fondo from "../../images/image.jpg";
 import dragon from "../../images/Fruta del dragon.jpg";
 import frutilla from "../../images/Frutilla.jpg";
 import romanesco from "../../images/Romanesco.jpg";
@@ -17,57 +17,66 @@ function Home() {
     <div class="Home" align="center">
       <div class="Fondo">
         <img src={fondo} alt="Fondo" width="100%" height="100%"  />
+        <div class="TextoIMg">
+          ElHuerto
+        </div>
+        <div class="TextoIMg2">
+          Invernadero de la ETEC  
+        </div>
       </div>   
-      <table border="3">
+      
+      <div class="planta" align="center">
+      <table border="0">
         <tr>
-          <td>Camote</td>
-          <td>Aji</td>
+          <td align="center">Camote</td>
+          <td align="center">Aji</td>
         </tr>
         <tr>
           <td>
             <a href="Camote">
-              <img src={camote} alt="Camote" width="500" height="500" />
+              <img src={camote} alt="Camote" width="250" height="250" />
             </a>
           </td>
           <td>
             <a href="Aji">
-              <img src={aji} alt="Aji" width="500" height="500" />
+              <img src={aji} alt="Aji" width="250" height="250" />
             </a>
           </td>      
         </tr>
         <tr>
-          <td>Dragon</td>
-          <td>Romanesco</td>
+          <td align="center">Dragon</td>
+          <td align="center">Romanesco</td>
         </tr>
         <tr>
           <td>
             <a href="Dragon">
-              <img src={dragon} alt="Dragon" width="500" height="500" />
+              <img src={dragon} alt="Dragon" width="250" height="250" />
             </a>
           </td>
           <td>
             <a href="Romanesco">
-              <img src={romanesco} alt="Romanesco" width="500" height="500" />
+              <img src={romanesco} alt="Romanesco" width="250" height="250" />
             </a>
           </td>
         </tr>
         <tr>
-          <td>Zapallo</td>
-          <td>Frutilla</td>
+          <td align="center">Zapallo</td>
+          <td align="center">Frutilla</td>
         </tr>
         <tr>
           <td>
             <a href="Zapallo">
-              <img src={zapallo} alt="Zapallo" width="500" height="500" />
+              <img src={zapallo} alt="Zapallo" width="250" height="250" />
             </a>
           </td>
           <td>
             <a href="Frutilla">
-              <img src={frutilla} alt="Frutilla" width="500" height="500" />
+              <img src={frutilla} alt="Frutilla" width="250" height="250" />
             </a>
           </td>
         </tr>
       </table>
+      </div>
     </div>
   );
 
