@@ -1,12 +1,17 @@
 import { Navbar, Nav, Container } from "react-bootstrap"
 import { Outlet, Link } from "react-router-dom"
+import logo from "../images/images.png";
+import "../layouts/navbar.css";
+
 
 const NavBarExample = () => {
     return(
        <>    
        <Navbar className="navBg" variant="dark" expand="lg">
+        <img class= "logo" src={logo} alt="Camote" width="75" height="100%" />
         <Container>
-            <Navbar.Brand as={Link} to="/" >ELHuerto</Navbar.Brand>
+            
+            <Navbar.Brand as={Link} to="/" >ElHuerto</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
