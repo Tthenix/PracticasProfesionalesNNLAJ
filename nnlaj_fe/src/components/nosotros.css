@@ -1,4 +1,11 @@
+.nosotros1 text-start{
+    display: flex;
+    justify-content: center;
+}
 .nosotros2 text-start{
     display: flex;
     justify-content: center;
+}
+.link{
+    text-decoration: none   
 }
