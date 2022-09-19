@@ -16,7 +16,7 @@ import Zapallo from "./components/plantas/zapallo";
 function App() {
 
   return (
-    <div className="App">
+    <div>
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<NavBarExample />}>

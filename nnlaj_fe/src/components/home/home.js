@@ -27,6 +27,7 @@ function Home() {
       
       <div class="planta" align="center">
       <table border="0">
+        <tbody>
         <tr>
           <td align="center">Camote</td>
           <td align="center">Aji</td>
@@ -75,6 +76,7 @@ function Home() {
             </a>
           </td>
         </tr>
+        </tbody>
       </table>
       </div>
     </div>
