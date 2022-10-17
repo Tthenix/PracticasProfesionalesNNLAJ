@@ -5,7 +5,7 @@
 
 }
 
-.TextoIMg{
+.TextoIMg {
     position: absolute;
     top: 30vw;
     left: 50vw;
@@ -13,11 +13,11 @@
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     transform: translate(-50%, -50%);
-    font-size: 10vw ;
-    
-}       
+    font-size: 10vw;
 
-.TextoIMg2{
+}
+
+.TextoIMg2 {
     position: absolute;
     top: 38vw;
     left: 50vw;
@@ -26,5 +26,5 @@
     -webkit-background-clip: text;
     transform: translate(-50%, -50%);
     font-size: 4vw;
-   
-}       
+
+}

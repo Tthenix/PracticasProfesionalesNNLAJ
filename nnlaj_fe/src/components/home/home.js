@@ -14,16 +14,80 @@ import zapallo from "../../images/Zapallo.jpg";
 
 function Home() {
    return (
+
     <div class="Home" align="center">
-      <div class="Fondo">
-        <img src={fondo} alt="Fondo" width="100%" height="100%"  />
-        <div class="TextoIMg">
-          ElHuerto
+    <div class="Fondo">
+      <img src={fondo} alt="Fondo" width="100%" height="100%"  />
+      <div class="TextoIMg">
+        ElHuerto
+      </div>
+      <div class="TextoIMg2">
+        Invernadero de la ETEC  
+      </div>
+    </div>   
+
+<div class="container text-center">    
+<div class="row">
+    <div class="col-10"><div class="col-lg-6">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">Informacion invernadero</h4>
+            <div class="d-flex align-items-center flex-row m-t-30">
+                <div class="display-5 text-info">
+                    <span>15<sup>°</sup></span></div>
+            </div>
+            <table class="table no-border mini-table m-t-20">
+                <tbody>
+                    <tr>
+                        <td class="text-muted">Humedad del suelo</td>
+                        <td class="font-medium">67%</td>
+                    </tr>
+                    <tr>
+                        <td class="text-muted">Humedad relativa</td>
+                        <td class="font-medium">83%</td>
+                    </tr>
+                    <tr>
+                        <td class="text-muted">Presión</td>
+                        <td class="font-medium">28.56 in</td>
+                    </tr>
+                </tbody>
+            </table>
+            <ul class="row list-style-none text-center m-t-30">
+                <div class="col-3">
+                    <h4 class="text-info"></h4>
+                    <span class="d-block text-muted">09:30</span>
+                    <h3 class="m-t-5">9<sup>°</sup></h3>
+                </div>
+                <div class="col-3">
+                    <h4 class="text-info"></h4>
+                    <span class="d-block text-muted">11:30</span>
+                    <h3 class="m-t-5">12<sup>°</sup></h3>
+                </div>
+                <div class="col-3">
+                    <h4 class="text-info"></h4>
+                    <span class="d-block text-muted">13:30</span>
+                    <h3 class="m-t-5">15<sup>°</sup></h3>
+                </div>
+                <div class="col-3">
+                    <h4 class="text-info"></h4>
+                    <span class="d-block text-muted">15:30</span>
+                    <h3 class="m-t-5">19<sup>°</sup></h3>
+                </div>
+            </ul>
         </div>
-        <div class="TextoIMg2">
-          Invernadero de la ETEC  
-        </div>
-      </div>   
+    </div>
+</div></div>
+        <div class="col">col</div>
+    </div>
+    <div class="row">
+        <div class="col-8">col-8</div>
+        <div class="col-4">col-4</div>
+    </div>
+</div>
+
+      
+    
+    
       
       <div class="planta" align="center">
       <table border="0">
