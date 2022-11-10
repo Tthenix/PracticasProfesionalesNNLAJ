@@ -1,10 +1,10 @@
 import React from "react";
-import "./Nosotros.css";
+import "./nosotros.css";
 import "./nosotros1.css";
 
 function nosotros() {
     return (
-    <div>
+    <div className="fondo">
         <section class="u-align-center u-clearfix u-section-1" id="sec-dea7">
             <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
                 <div class="u-expanded-width u-list u-list-1">
