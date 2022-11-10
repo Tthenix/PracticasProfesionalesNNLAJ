@@ -1,5 +1,8 @@
 import React from "react";
 import "./home.css";
+import BarChart from "./dashboard/barchart"
+import{ UserData } from "./dashboard/data.js"
+import { useState } from "react";
 
 
 import camote from "../../images/Camote.jpg";
@@ -10,86 +13,89 @@ import frutilla from "../../images/Frutilla.jpg";
 import romanesco from "../../images/Romanesco.jpg";
 import zapallo from "../../images/Zapallo.jpg";
 
-
-
 function Home() {
+
+  // const [UserData, setUserData] = useState({
+  //   labels: UserData.map((data) => data.year),
+  //   datasets: [{
+  //     label:"Users Gained",
+  //     data: UserData.map((data) => data.userGain),
+  //   }]
+  // })
+  // console.log(UserData);
    return (
 
-    <div class="Home" align="center">
-    <div class="Fondo">
+    <div className="Home" align="center">
+    <div className="Fondo">
       <img src={fondo} alt="Fondo" width="100%" height="100%"  />
       <div class="TextoIMg">
         ElHuerto
       </div>
-      <div class="TextoIMg2">
+      <div className="TextoIMg2">
         Invernadero de la ETEC  
       </div>
     </div>   
 
-<div class="container text-center">    
-<div class="row">
-    <div class="col-10"><div class="col-lg-6">
-    <div class="card">
-        <div class="card-body">
-            <h4 class="card-title">Informacion invernadero</h4>
-            <div class="d-flex align-items-center flex-row m-t-30">
-                <div class="display-5 text-info">
+<div className="container text-center">    
+<div className="row">
+    <div className="col-10"><div className="col-lg-6">
+    <div className="card">
+        <div className="card-body">
+            <h4 className="card-title">Informacion invernadero</h4>
+            <div className="d-flex align-items-center flex-row m-t-30">
+                <div className="display-5 text-info">
                     <span>15<sup>°</sup></span></div>
             </div>
-            <table class="table no-border mini-table m-t-20">
+            <table className="table no-border mini-table m-t-20">
                 <tbody>
                     <tr>
-                        <td class="text-muted">Humedad del suelo</td>
-                        <td class="font-medium">67%</td>
+                        <td className="text-muted">Humedad del suelo</td>
+                        <td className="font-medium">67%</td>
                     </tr>
                     <tr>
-                        <td class="text-muted">Humedad relativa</td>
-                        <td class="font-medium">83%</td>
+                        <td className="text-muted">Humedad relativa</td>
+                        <td className="font-medium">83%</td>
                     </tr>
                     <tr>
-                        <td class="text-muted">Presión</td>
-                        <td class="font-medium">28.56 in</td>
+                        <td className="text-muted">Presión</td>
+                        <td className="font-medium">28.56 in</td>
                     </tr>
                 </tbody>
             </table>
-            <ul class="row list-style-none text-center m-t-30">
-                <div class="col-3">
-                    <h4 class="text-info"></h4>
-                    <span class="d-block text-muted">09:30</span>
-                    <h3 class="m-t-5">9<sup>°</sup></h3>
+            <ul className="row list-style-none text-center m-t-30">
+                <div className="col-3">
+                    <h4 className="text-info"></h4>
+                    <span className="d-block text-muted">09:30</span>
+                    <h3 className="m-t-5">9<sup>°</sup></h3>
                 </div>
-                <div class="col-3">
-                    <h4 class="text-info"></h4>
-                    <span class="d-block text-muted">11:30</span>
-                    <h3 class="m-t-5">12<sup>°</sup></h3>
+                <div className="col-3">
+                    <h4 className="text-info"></h4>
+                    <span className="d-block text-muted">11:30</span>
+                    <h3 className="m-t-5">12<sup>°</sup></h3>
                 </div>
-                <div class="col-3">
-                    <h4 class="text-info"></h4>
-                    <span class="d-block text-muted">13:30</span>
-                    <h3 class="m-t-5">15<sup>°</sup></h3>
+                <div className="col-3">
+                    <h4 className="text-info"></h4>
+                    <span className="d-block text-muted">13:30</span>
+                    <h3 className="m-t-5">15<sup>°</sup></h3>
                 </div>
-                <div class="col-3">
-                    <h4 class="text-info"></h4>
-                    <span class="d-block text-muted">15:30</span>
-                    <h3 class="m-t-5">19<sup>°</sup></h3>
+                <div className="col-3">
+                    <h4 className="text-info"></h4>
+                    <span className="d-block text-muted">15:30</span>
+                    <h3 className="m-t-5">19<sup>°</sup></h3>
                 </div>
             </ul>
         </div>
     </div>
-</div></div>
-        <div class="col">col</div>
-    </div>
-    <div class="row">
-        <div class="col-8">col-8</div>
-        <div class="col-4">col-4</div>
-    </div>
 </div>
+</div>
+<div className="col">
 
-      
-    
-    
-      
-      <div class="planta" align="center">
+  <barchart chartData={UserData}/>
+{/* user data como objeto vacio */}
+</div>
+    </div>
+    <div className="row">
+        <div className="col-12"><div className="planta" align="center">
       <table border="0">
         <tr>
           <td align="center">Camote</td>
@@ -141,7 +147,11 @@ function Home() {
         </tr>
       </table>
       </div>
-    </div>
+</div>
+</div>
+</div>
+
+</div>
   );
 
   

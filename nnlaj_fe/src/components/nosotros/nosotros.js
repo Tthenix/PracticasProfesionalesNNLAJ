@@ -5,11 +5,11 @@ function Nosotros() {
   return (
     <div align="center">
       <div>
-        <p class="nosotros1">
+        <p className="nosotros1">
           somos un equipo de 5 personas formado por:
         </p>
       </div>
-      <div class="nosotros2">
+      <div className="nosotros2">
         <p>
           Nahuel Quiroga(Lider)
         </p>

@@ -7,40 +7,40 @@ import fondo from "../../images/camoteImage.jpg";
 function Camote() {
   return (
   <div align="center">
-    <div class="planta1"> 
+    <div className="planta1"> 
       Camote
     </div>
-    <div class="titulo">
+    <div className="titulo">
       Descripcion
     </div>
-    <div class="texto"> 
+    <div className="texto"> 
     Lorem ipsum dolor sit amet consectetur adipiscing, elit interdum elementum dui laoreet purus torquent, ullamcorper nostra at morbi himenaeos. Vestibulum proin ornare nibh cursus porttitor volutpat ad, fames aenean dictumst praesent facilisis per placerat curae, habitasse suscipit nulla vulputate nec lacus. 
     </div>
-    <div class="titulo"> 
+    <div className="titulo"> 
     cultivo
     </div>
-    <div class="texto"> 
+    <div className="texto"> 
     Lorem ipsum dolor sit amet consectetur adipiscing, elit interdum elementum dui laoreet purus torquent, ullamcorper nostra at morbi himenaeos. Vestibulum proin ornare nibh cursus porttitor volutpat ad, fames aenean dictumst praesent facilisis per placerat curae, habitasse suscipit nulla vulputate nec lacus. 
     </div> 
-    <div class="titulo">
+    <div className="titulo">
     cuidados
     </div>
-    <div class="texto"> 
+    <div className="texto"> 
     Lorem ipsum dolor sit amet consectetur adipiscing, elit interdum elementum dui laoreet purus torquent, ullamcorper nostra at morbi himenaeos. Vestibulum proin ornare nibh cursus porttitor volutpat ad, fames aenean dictumst praesent facilisis per placerat curae, habitasse suscipit nulla vulputate nec lacus. 
     </div>
-    <div class="titulo">
+    <div className="titulo">
     recomendaciones
     </div>
-    <div class="texto"> 
+    <div className="texto"> 
     Lorem ipsum dolor sit amet consectetur adipiscing, elit interdum elementum dui laoreet purus torquent, ullamcorper nostra at morbi himenaeos. Vestibulum proin ornare nibh cursus porttitor volutpat ad, fames aenean dictumst praesent facilisis per placerat curae, habitasse suscipit nulla vulputate nec lacus. 
     </div>
-    <div class="titulo">
+    <div className="titulo">
     reproduccion
     </div>
-    <div class="texto"> 
+    <div className="texto"> 
     Lorem ipsum dolor sit amet consectetur adipiscing, elit interdum elementum dui laoreet purus torquent, ullamcorper nostra at morbi himenaeos. Vestibulum proin ornare nibh cursus porttitor volutpat ad, fames aenean dictumst praesent facilisis per placerat curae, habitasse suscipit nulla vulputate nec lacus. 
     </div>
-    <div class="fondo">
+    <div className="fondo">
       <img src={fondo} alt="Fondo" width="70%" height="40%"  />
     </div>
   </div>
