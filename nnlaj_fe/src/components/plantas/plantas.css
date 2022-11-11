@@ -1,5 +1,47 @@
-.txtCamote{
-    text-align: left;   
-    vertical-align: bottom;
-    
+.main {
+    display: flex;
+    height: 30%;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.informacion {
+    position: absolute;
+    width: 55%;
+    margin-left: 30px;
+    margin-top: 10px;
+
+}
+
+.planta1 {
+    background: -webkit-linear-gradient(rgb(0, 255, 64), rgb(255, 238, 0));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-size: 4.5vh;
+}
+
+.titulo {
+    background: -webkit-linear-gradient(rgb(0, 255, 64), rgb(255, 238, 0));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-size: 3.5vh;
+    margin-top: 5px;
+}
+
+.texto {
+    background: white;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-size: 2.3vh;
+    margin-top: 5px;
+}
+
+.imagenplanta {
+    position: absolute;
+    margin-top: 160px;
+    margin-left: 850px;
+    width: 45%;
+
+
 }

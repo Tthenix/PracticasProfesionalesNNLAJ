@@ -8,10 +8,11 @@ const NavBarExample = () => {
     return(
        <>    
        <Navbar className="navBg" variant="dark" expand="lg">
-        <img class= "logo" src={logo} alt="Camote" width="75" height="100%" />
+        <a className="img" href="Home">
+       <img href="Home" class= "logo" src={logo} alt="Camote" width="75" height="100%" />
+       </a>
         <Container>
-            
-            <Navbar.Brand as={Link} to="/" >ElHuerto</Navbar.Brand>
+        
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">

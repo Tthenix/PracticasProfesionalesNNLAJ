@@ -2,8 +2,8 @@ import "./App.css";
 import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
 
 
-import Home from "./components/home/home";
-import Nosotros from "./components/nosotros";
+import Home from "./components/home/home.js";
+import Nosotros from "./components/nosotros/nosotros";
 import Notas from "./components/notas";
 import NavBarExample from "./layouts/navbar";
 import Camote from "./components/plantas/camote";
@@ -12,7 +12,6 @@ import Dragon from "./components/plantas/dragon"
 import Frutilla from "./components/plantas/frutilla";
 import Romanesco from "./components/plantas/romanesco";
 import Zapallo from "./components/plantas/zapallo";
-import Ejemplo from "./components/plantas/ejemplo"
 
 function App() {
 
@@ -31,7 +30,6 @@ function App() {
             <Route path="dragon" element={<Dragon />} />
             <Route path="frutilla" element={<Frutilla />} />
             <Route path="romanesco" element={<Romanesco />} />
-            <Route path="Ejemplo" element={<Ejemplo />} />
 
             <Route path="*" element={<Navigate replace to="/" />} />
           </Route>
