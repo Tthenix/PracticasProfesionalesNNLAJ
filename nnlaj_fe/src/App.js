@@ -2,7 +2,7 @@ import "./App.css";
 import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
 
 
-import Home from "./components/home/home.js";
+import Home from "./components/home/home.jsx";
 import Nosotros from "./components/nosotros/nosotros";
 import Notas from "./components/notas";
 import NavBarExample from "./layouts/navbar";
