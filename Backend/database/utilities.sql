@@ -1,0 +1,4 @@
+-- DELETE ALL ROWS
+DELETE FROM PLANTA;
+
+DROP table links;
