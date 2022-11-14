@@ -4,7 +4,6 @@ import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
 
 import Home from "./components/home/home.jsx";
 import Nosotros from "./components/nosotros/nosotros";
-import Notas from "./components/notas";
 import NavBarExample from "./layouts/navbar";
 import Camote from "./components/plantas/camote";
 import Aji from "./components/plantas/aji";
@@ -23,7 +22,6 @@ function App() {
           <Route path="/" element={<Home />} />
             
             <Route path="nosotros" element={<Nosotros />} />
-            <Route path="notas" element={<Notas />} />
             <Route path="camote" element={<Camote />} />
             <Route path="aji" element={<Aji />} />
             <Route path="zapallo" element={<Zapallo />} />

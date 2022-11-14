@@ -1,23 +1,44 @@
-.txtCamote{
-    text-align: left;   
-    vertical-align: bottom;
-    font-size: 1vw ;
+.main {
+    background-image: url("../../images/image.jpg");
+    height: 100%;
 }
 
-.planta1{
-    font-size: 4vw;
+.informacion {
+    position: absolute;
+    width: 55%;
+    margin-left: 30px;
+    margin-top: 10px;
+
 }
 
-.titulo{
-    font-size: 2vw;
+.planta1 {
+    background: -webkit-linear-gradient(rgb(0, 255, 64), rgb(255, 238, 0));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-size: 4.5vh;
 }
 
-.texto{
+.titulo {
+    background: -webkit-linear-gradient(rgb(0, 255, 64), rgb(255, 238, 0));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-size: 3.2vh;
+    margin-top: 5px;
+}
+
+.texto {
+    background: white;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
     font-size: 1.2vw;
+    margin-top: 5px;
 }
 
-.fondo{
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: 5px;
+.imagenplanta {
+    position: absolute;
+    margin-top: 10vh;
+    margin-left: 50vw;
+    width: 45%;
+
+
 }

@@ -1,49 +1,62 @@
-import React from 'react'
+import React from "react";
+import "bootstrap-icons/font/bootstrap-icons.css"
+import 'bootstrap/dist/css/bootstrap.min.css';
 import "./nosotros.css"
+import { Nav, NavLink } from "react-bootstrap"
+import { Link } from "react-router-dom"
+import logo from "../../images/logo.png";
 
-function Nosotros() {
-  return (
-    <div align="center">
-      <div>
-        <p className="nosotros1">
-          somos un equipo de 5 personas formado por:
-        </p>
+function nosotros() {
+    return (
+    
+    <div className="fondo">
+<nav className="navbar">
+    <div className="container ">
+      <NavLink as={Link} to="/home"><img src={logo} class="logo" width="80" href="Home"></img></NavLink>
+    <Nav.Link as={Link} to="/nosotros" className="texto">Nosotros</Nav.Link>  
+      <div class="TextoIMg">
+        ElHuerto
       </div>
-      <div className="nosotros2">
-        <p>
-          Nahuel Quiroga(Lider)
-        </p>
-        <p>
-          Nicolas Beltran(front end,ayudante)
-        </p>
-        <p>
-          Ariel Cohen(Front end,ayudante)
-        </p>
-        <p>
-          Lucas Moran(Back end)
-        </p>
-        <p>
-          Juan Yañez(busqueda de informacion)
-        </p>
-      </div>
-      <div>
-        <p>
-          este proyecto empezo como un trabajo obligatorio pero con el tiempo nos empezo a gustar avanzarlo y hacerlo mucho mas atractivo visualmente
-        </p>
-        <div>
-          <p>
-            El proyecto trata de una pagina que sirve para obter informacion hacerca de plantas (Cuidados, consejos y informacion)
-          </p>
-          <p>
-            Sobre todo si necesitas ayuda para tus plantas este sitio es el indicado
-          </p>
+    <div className="TextoIMg2">
+        Invernadero de la ETEC  
+    </div>
+  </div>
+</nav>
+      <div className="container text-center">
+        <div className="row">
+          <div className="col">
+          <i className="bi bi-person-circle fs-1 text-light"></i>
+            <div className="text">Nahuel Quiroga</div> 
+            <div className="text2">Lider, Front end y Diseño</div> 
+          </div>
+          <div className="col">
+          <i className="bi bi-person-circle fs-1 text-light"></i>
+            <div className="text">Ariel Cohen</div> 
+            <div className="text2">Front end, Diseño y ayudante general</div> 
+          </div>
+        </div>
+        <div className="row">
+          <div className="col">
+          <i className="bi bi-person-circle fs-1 text-light"></i>
+            <div className="text">Nicolas Beltran</div> 
+            <div className="text2">Front end, Diseño y ayudante general</div> 
+          </div>
+          <div className="col">
+          <i className="bi bi-person-circle fs-1 text-light"></i>
+            <div className="text">Lucas Moran</div> 
+            <div className="text2">Back end</div> 
+          </div>
+          <div className="col">
+          <i className="bi bi-person-circle fs-1 text-light"></i>
+            <div className="text">Juan Yañez</div> 
+            <div className="text2">Busqueda de informacion, diseño</div> 
+          </div>
+          <div className="text3">
+          Esta es una pagina la cual vas a poder encontrar mucha informacion, cuidados y mas hacerca de plantas, nuestro objetivo es llegar a poner muchos tipos de plantas, para que cualquiera que lo necesite pueda obtener informacion de lo que necesite.
+          </div>
         </div>
       </div>
-      <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><a class="link" href="https://github.com/Tthenix/PracticasProfesionalesNNLAJ">
-        https://github.com/Tthenix/PracticasProfesionalesNNLAJ
-      </a>
     </div>
-  )
+    );
 }
-
-export default Nosotros
+export default nosotros;

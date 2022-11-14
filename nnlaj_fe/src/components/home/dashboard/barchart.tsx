@@ -30,6 +30,7 @@ ChartJS.register(
         text: 'Humedad por semana',
       },
     },
+  
   };
   
   const labels = ['Lunes', 'Martes', 'Miercoles', 'Jueves', 'Viernes', 'Sabado', 'Domingo'];
