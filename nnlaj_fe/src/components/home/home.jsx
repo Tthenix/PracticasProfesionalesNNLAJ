@@ -35,99 +35,83 @@ function Home() {
 <div className="container text-center">    
   <div className="row">
       <div className="col-6"><div className="col-lg-6">
-      <div className="card">
-          <div className="card-body">
-              <h4 className="card-title texto">Informacion invernadero</h4>
-              <div className="d-flex align-items-center flex-row m-t-30">
-                  <div className="display-5 text-info">
-                      <span>15<sup>°</sup></span></div>
-              </div>
-              <table className="table no-border mini-table m-t-20">
-                  <tbody>
-                      <tr>
-                          <td className="text-muted">Humedad del suelo</td>
-                          <td className="font-medium">71%</td>
-                      </tr>
-                      <tr>
-                          <td className="text-muted">Humedad relativa</td>
-                          <td className="font-medium">83%</td>
-                      </tr>
-                      <tr>
-                          <td className="text-muted">Presión</td>
-                          <td className="font-medium">28.56 in</td>
-                      </tr>
-                  </tbody>
-              </table>
-              <ul className="row list-style-none text-center m-t-30">
-                  <div className="col-3">
-                      <h4 className="text-info"></h4>
-                      <span className="d-block text-muted">09:30</span>
-                      <h3 className="m-t-5">9<sup>°</sup></h3>
-                  </div>
-                  <div className="col-3">
-                      <h4 className="text-info"></h4>
-                      <span className="d-block text-muted">11:30</span>
-                      <h3 className="m-t-5">12<sup>°</sup></h3>
-                  </div>
-                  <div className="col-3">
-                      <h4 className="text-info"></h4>
-                      <span className="d-block text-muted">13:30</span>
-                      <h3 className="m-t-5">15<sup>°</sup></h3>
-                  </div>
-                  <div className="col-3">
-                      <h4 className="text-info"></h4>
-                      <span className="d-block text-muted">15:30</span>
-                      <h3 className="m-t-5">19<sup>°</sup></h3>
-                  </div>
-              </ul>
-          </div>
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100" src={frutilla} alt="First slide"/>
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src={frutilla} alt="Second slide"/>
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src={frutilla} alt="Third slide"/>
+        </div>
+      </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
       </div>
   </div>
 </div>
-<div className="col-6">
-  <Bar options={options} data={data} />;
-</div>
-    </div>
-    <div className="row">
-        <div className="col"><div className="planta" align="center">
 
-      <table border="0" class="table">
-        <tr>
-          <td className="texto" align="center">Camote</td>
-          <td className="texto" align="center">Aji</td>
-        </tr>
-        <tr>
-          <td>
-            <a href="Camote">
-              <img className="img-fluid" src={camote} alt="Camote" width="65%" height="50%" />
-            </a>
-          </td>
-          <td>
-            <a href="Aji">
-              <img className="img-fluid" src={aji} alt="Aji" width="65%" height="50%" />
-            </a>
-          </td>      
-        </tr>
-        <tr>
-          <td className="texto" align="center">Dragon</td>
-          <td className="texto" align="center">Frutilla</td>
-        </tr>
-        <tr>
-          <td>
-            <a href="Dragon">
-              <img className="img-fluid" src={dragon} alt="Dragon" width="65%" height="50%" />
-            </a>
-          </td>
-          <td>
-          <a href="Frutilla">
-              <img className="img-fluid" src={frutilla} alt="Frutilla" width="65%" height="50%" />
-            </a>
-          </td>
-        </tr>
-      </table>
+<div className="col-6">
+  <Bar  options={options} data={data} />;
+</div>
+</div>
+<div class="container text-center">
+  <div class="row row-cols-3">
+    <div class="col">
+      <div className="texto">
+        Camote
       </div>
-</div>
-</div>
+        <img className="img-fluid" src={camote} alt="Camote" width="65%" height="50%"/>
+      </div>
+
+      <div class="col">
+        <div className="texto">
+          Frutilla
+        </div>
+          <img className="img-fluid" src={frutilla} alt="frutilla" width="65%" height="50%"/>
+      </div>
+
+      <div class="col">
+        <div className="texto">
+          Dragon
+        </div>
+          <img className="img-fluid" src={dragon} alt="dragon" width="65%" height="50%"/>
+      </div>
+
+      <div class="col">
+        <div className="texto">
+          Aji
+        </div>
+        <img className="img-fluid" src={aji} alt="dragon" width="65%" height="50%"/>
+      </div>
+
+      <div class="col">
+        <div className="texto">
+          Camote
+        </div>
+      </div>
+
+      <div class="col">
+        <div className="texto">
+          Camote
+        </div>
+      </div>
+         
+    </div>
+  </div>
 </div>
 
 </div>
