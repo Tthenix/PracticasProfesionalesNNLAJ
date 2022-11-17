@@ -5,7 +5,11 @@ import "./nosotros.css"
 import { Nav, NavLink } from "react-bootstrap"
 import { Link } from "react-router-dom"
 import logo from "../../images/logo.png";
-
+import Nahuel from "../../images/Nahuel.jpeg"
+import Ariel from "../../images/Ariel.jpeg"
+import Nico from "../../images/Nicov2.jpeg"
+import Lucas from "../../images/Lucas.jpeg"
+import Juan from "../../images/Juan.png"
 function nosotros() {
     return (
     
@@ -25,29 +29,31 @@ function nosotros() {
       <div className="container text-center">
         <div className="row">
           <div className="col">
-          <i className="bi bi-person-circle fs-1 text-light"></i>
+            <img className="Imgperfil" src={Nahuel} width="150vw"/>
+          
             <div className="text">Nahuel Quiroga</div> 
             <div className="text2">Lider, Front end y Diseño</div> 
           </div>
           <div className="col">
-          <i className="bi bi-person-circle fs-1 text-light"></i>
+         <img className="Imgperfil" src={Ariel} width="150vw" height="152vh"/>
+          
             <div className="text">Ariel Cohen</div> 
             <div className="text2">Front end, Diseño y ayudante general</div> 
           </div>
         </div>
         <div className="row">
           <div className="col">
-          <i className="bi bi-person-circle fs-1 text-light"></i>
+          <img className="Imgperfil" src={Nico} width="150vw" />
             <div className="text">Nicolas Beltran</div> 
             <div className="text2">Front end, Diseño y ayudante general</div> 
           </div>
           <div className="col">
-          <i className="bi bi-person-circle fs-1 text-light"></i>
+          <img className="Imgperfil" src={Lucas} width="150vw" height="152vh"/>
             <div className="text">Lucas Moran</div> 
             <div className="text2">Back end</div> 
           </div>
           <div className="col">
-          <i className="bi bi-person-circle fs-1 text-light"></i>
+          <img className="Imgperfil" src={Juan} width="150vw" height="152vh" />
             <div className="text">Juan Yañez</div> 
             <div className="text2">Busqueda de informacion, diseño</div> 
           </div>

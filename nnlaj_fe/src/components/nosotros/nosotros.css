@@ -21,7 +21,12 @@
 .text3{
     color:white;
     font-size: 2vh;
-    padding: 20vh;
+    padding: 15vh;
 
 
+}
+
+.Imgperfil{
+    /* width: 10vw; */
+    border-radius: 100%;
 }
