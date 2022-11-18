@@ -29,8 +29,8 @@ class App extends React.Component {
     modalInsertar: false,
     form: {
       id: "",
-      personaje: "",
-      anime: "",
+      Planta: "",
+      tipo: "",
     },
   };
 
@@ -60,8 +60,8 @@ class App extends React.Component {
     var arreglo = this.state.data;
     arreglo.map((registro) => {
       if (dato.id == registro.id) {
-        arreglo[contador].personaje = dato.personaje;
-        arreglo[contador].anime = dato.anime;
+        arreglo[contador].Planta = dato.Planta;
+        arreglo[contador].tipo = dato.tipo;
       }
       contador++;
     });
@@ -123,8 +123,8 @@ class App extends React.Component {
               {this.state.data.map((dato) => (
                 <tr key={dato.id}>
                   <td>{dato.id}</td>
-                  <td>{dato.personaje}</td>
-                  <td>{dato.anime}</td>
+                  <td>{dato.Planta}</td>
+                  <td>{dato.tipo}</td>
                   <td>
                     <Button
                       color="primary"
@@ -174,11 +174,11 @@ class App extends React.Component {
             
             <FormGroup>
               <label>
-                Anime: 
+                tipo: 
               </label>
               <input
                 className="form-control"
-                name="anime"
+                name="Tipo"
                 type="text"
                 onChange={this.handleChange}
                 value={this.state.form.anime}
@@ -206,7 +206,7 @@ class App extends React.Component {
 
         <Modal isOpen={this.state.modalInsertar}>
           <ModalHeader>
-           <div><h3>Insertar Personaje</h3></div>
+           <div><h3>Insertar Planta</h3></div>
           </ModalHeader>
 
           <ModalBody>
@@ -225,11 +225,11 @@ class App extends React.Component {
             
             <FormGroup>
               <label>
-                Personaje: 
+                PLanta: 
               </label>
               <input
                 className="form-control"
-                name="personaje"
+                name="planta"
                 type="text"
                 onChange={this.handleChange}
               />
@@ -237,11 +237,11 @@ class App extends React.Component {
             
             <FormGroup>
               <label>
-                Anime: 
+                Tipo: 
               </label>
               <input
                 className="form-control"
-                name="anime"
+                name="tipo"
                 type="text"
                 onChange={this.handleChange}
               />
